@@ -1,0 +1,11 @@
+[Unit]
+Description=jambot
+
+[Service]
+ExecStart=/bin/bash -c '/usr/bin/python -u jambot.py'
+WorkingDirectory=/home/pi/jambot
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target

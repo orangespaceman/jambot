@@ -1,0 +1,5 @@
+env
+deploy.sh
+sfx/*.mp3
+!sfx/_*.mp3
+config.py

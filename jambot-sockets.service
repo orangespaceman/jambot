@@ -1,0 +1,11 @@
+[Unit]
+Description=jambotsockets
+
+[Service]
+ExecStart=/bin/bash -c '/usr/bin/python -u jambot-sockets.py'
+WorkingDirectory=/home/pi/jambot
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
