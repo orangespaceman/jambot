@@ -17,7 +17,6 @@ sfx_path = "/home/pi/jambot/sfx"
 
 def on_connect():
     print('connect')
-    socketIO.emit('jambot')
 
 
 def on_disconnect():
@@ -48,4 +47,5 @@ socketIO.on('reconnect', on_reconnect)
 # Listen
 socketIO.on('say', on_say)
 socketIO.on('play', on_play)
+socketIO.emit('jambot')
 socketIO.wait()
