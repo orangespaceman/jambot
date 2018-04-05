@@ -17,6 +17,7 @@ sfx_path = "/home/pi/jambot/sfx"
 
 def on_connect():
     print('connect')
+    socketIO.emit('jambot')
 
 
 def on_disconnect():

@@ -34,7 +34,7 @@ This uses a Raspberry Pi Zero and a Speaker pHAT.
 
 * Check this repo out onto the pi
 
-* Update the config file to point to the websocket server
+* Update the config file to point to the websocket [server](https://github.com/studio-awkward/jambot-server)
 
 * Set up the script to run on boot by editing the following file:
 
