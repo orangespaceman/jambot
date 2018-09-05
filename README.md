@@ -2,7 +2,7 @@
 
 A Raspberry Pi-powered JamBot that plays stupid sound clips when touched in a special place.
 
-It also listens to a [server](https://github.com/studio-awkward/jambot-server) via websockets for remotely triggering sound clips.
+It also listens to a [server](https://github.com/orangespaceman/jambot-server) via websockets for remotely triggering sound clips.
 
 ## Construction
 
